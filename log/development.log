@@ -50,3 +50,101 @@ Migrating to CreatePhotos (20190613233535)
   ↳ bin/rails:9
   [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jessicagladstone/.rbenv/versions/2.6.0/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jessicagladstone/.rbenv/versions/2.6.0/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jessicagladstone/.rbenv/versions/2.6.0/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[36mQuote Create (0.7ms)[0m  [1m[32mINSERT INTO "quotes" ("saying", "author", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["saying", "I can't change the direction of the wind, but I can adjust my sails to always reach my destination."], ["author", "Jimmy Dean"], ["created_at", "2019-06-13 23:48:28.819509"], ["updated_at", "2019-06-13 23:48:28.819509"]]
+  ↳ db/seeds.rb:4
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[36mQuote Create (0.4ms)[0m  [1m[32mINSERT INTO "quotes" ("saying", "author", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["saying", "I will love the light for it shows me the way, yet I will endure the darkness because it shows me the stars."], ["author", "Og Mandino"], ["created_at", "2019-06-13 23:48:28.826581"], ["updated_at", "2019-06-13 23:48:28.826581"]]
+  ↳ db/seeds.rb:4
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[36mQuote Create (0.3ms)[0m  [1m[32mINSERT INTO "quotes" ("saying", "author", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["saying", "All you need is the plan, the road map, and the courage to press on to your destination."], ["author", "Earl Nightingale"], ["created_at", "2019-06-13 23:48:28.829809"], ["updated_at", "2019-06-13 23:48:28.829809"]]
+  ↳ db/seeds.rb:4
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mContact Create (0.5ms)[0m  [1m[32mINSERT INTO "contacts" ("firstname", "lastname", "phone", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["firstname", "Judy"], ["lastname", "Smith"], ["phone", "540-111-2222"], ["email", "jsmith@wow.com"], ["created_at", "2019-06-13 23:48:28.846564"], ["updated_at", "2019-06-13 23:48:28.846564"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mContact Create (0.3ms)[0m  [1m[32mINSERT INTO "contacts" ("firstname", "lastname", "phone", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["firstname", "John"], ["lastname", "Doe"], ["phone", "540-333-4444"], ["email", "jdoe@wow.com"], ["created_at", "2019-06-13 23:48:28.850397"], ["updated_at", "2019-06-13 23:48:28.850397"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mContact Create (0.3ms)[0m  [1m[32mINSERT INTO "contacts" ("firstname", "lastname", "phone", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["firstname", "Lily"], ["lastname", "Rose"], ["phone", "540-555-6666"], ["email", "lily@wow.com"], ["created_at", "2019-06-13 23:48:28.854031"], ["updated_at", "2019-06-13 23:48:28.854031"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jessicagladstone/.rbenv/versions/2.6.0/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[36mQuote Create (0.8ms)[0m  [1m[32mINSERT INTO "quotes" ("saying", "author", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["saying", "I can't change the direction of the wind, but I can adjust my sails to always reach my destination."], ["author", "Jimmy Dean"], ["created_at", "2019-06-13 23:49:00.041188"], ["updated_at", "2019-06-13 23:49:00.041188"]]
+  ↳ db/seeds.rb:4
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[36mQuote Create (0.3ms)[0m  [1m[32mINSERT INTO "quotes" ("saying", "author", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["saying", "I will love the light for it shows me the way, yet I will endure the darkness because it shows me the stars."], ["author", "Og Mandino"], ["created_at", "2019-06-13 23:49:00.047010"], ["updated_at", "2019-06-13 23:49:00.047010"]]
+  ↳ db/seeds.rb:4
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[36mQuote Create (0.4ms)[0m  [1m[32mINSERT INTO "quotes" ("saying", "author", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["saying", "All you need is the plan, the road map, and the courage to press on to your destination."], ["author", "Earl Nightingale"], ["created_at", "2019-06-13 23:49:00.050041"], ["updated_at", "2019-06-13 23:49:00.050041"]]
+  ↳ db/seeds.rb:4
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mContact Create (0.5ms)[0m  [1m[32mINSERT INTO "contacts" ("firstname", "lastname", "phone", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["firstname", "Judy"], ["lastname", "Smith"], ["phone", "540-111-2222"], ["email", "jsmith@wow.com"], ["created_at", "2019-06-13 23:49:00.065151"], ["updated_at", "2019-06-13 23:49:00.065151"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mContact Create (0.4ms)[0m  [1m[32mINSERT INTO "contacts" ("firstname", "lastname", "phone", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["firstname", "John"], ["lastname", "Doe"], ["phone", "540-333-4444"], ["email", "jdoe@wow.com"], ["created_at", "2019-06-13 23:49:00.069456"], ["updated_at", "2019-06-13 23:49:00.069456"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mContact Create (0.3ms)[0m  [1m[32mINSERT INTO "contacts" ("firstname", "lastname", "phone", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["firstname", "Lily"], ["lastname", "Rose"], ["phone", "540-555-6666"], ["email", "lily@wow.com"], ["created_at", "2019-06-13 23:49:00.072818"], ["updated_at", "2019-06-13 23:49:00.072818"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mPhoto Create (0.4ms)[0m  [1m[32mINSERT INTO "photos" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "mountains and lake"], ["url", "https://temp.media/?height=400&width=500&text=&category=nature&color"], ["created_at", "2019-06-13 23:49:00.085870"], ["updated_at", "2019-06-13 23:49:00.085870"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (26.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mPhoto Create (0.6ms)[0m  [1m[32mINSERT INTO "photos" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "tabby cat"], ["url", "https://temp.media/?height=400&width=500&text=&category=animals&color"], ["created_at", "2019-06-13 23:49:00.115979"], ["updated_at", "2019-06-13 23:49:00.115979"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mPhoto Create (0.4ms)[0m  [1m[32mINSERT INTO "photos" ("title", "url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "dinner with friends"], ["url", "https://temp.media/?height=400&width=500&text=&category=food&color"], ["created_at", "2019-06-13 23:49:00.123606"], ["updated_at", "2019-06-13 23:49:00.123606"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
