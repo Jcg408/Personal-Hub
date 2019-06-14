@@ -31,6 +31,7 @@ class Api::ContactsController < ApplicationController
             render :json => {message: "Contact has been deleted"}, status: 204
         else
             render :json => {message: "Contact Not Deleted"}, status: 400
+        end
     end
 
     private
