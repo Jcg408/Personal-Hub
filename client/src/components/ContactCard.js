@@ -1,14 +1,6 @@
 import React from 'react';
 
-class ContactCard extends Component {
-    constructor()
-        super();
-        this.state = []
-   
-    render() { 
-        return (  );
-    }
-}
+
  
 
 const ContactCard =({contact}) => (
