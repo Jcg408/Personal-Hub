@@ -26,6 +26,7 @@ class Contacts extends Component {
             <div>
                 <h1>VIP Contacts</h1>
                 {contactData}
+                
                 <ContactForm/>
             </div>
         );
