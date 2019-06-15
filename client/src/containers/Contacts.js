@@ -1,37 +1,41 @@
 import React, { Component } from 'react';
+import {connect} from 'react-redux';
+import { fetchContacts} from '../actions/contactActions';
 import ContactCard from '../components/ContactCard'
 import ContactForm from './ContactForm'
 
 class Contacts extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            contacts: []
-        }
-    }
+    componentDidMount(){
+        this.props.fetchContacts()
+      }
 
-    componentDidMount () {
-        fetch('http://localhost:3001/api/contacts')
-            .then(resp => resp.json())
-            .then(contact => this.setState({contacts: contact}))
-    }
-   
     render() { 
-        const contactData = this.state.contacts.map(contact => 
+        const contactData = this.props.contacts.map(contact => 
         <div key = {contact.id} >
-            <h3>{contact.name}</h3>
+            <h3>{contact.firstname} {contact.lastname}</h3>
         </div>
         )
         return ( 
             <div>
                 <h1>VIP Contacts</h1>
-                {contactData}
-                
-                <ContactForm/>
+                <div>
+                     {contactData}
+                </div>
+               
+                <br/>
+                <hr/>
+               <div>
+                    <ContactForm/>
+               </div>
             </div>
         );
     }
 }
- 
-export default Contacts;
+const mapStateToProps = (state) => {
+    return {
+      contacts: state.contacts.contactItem
+    }
+  }
+  
+export default connect (mapStateToProps, {fetchContacts}) (Contacts);
 

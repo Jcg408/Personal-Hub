@@ -1117,3 +1117,52 @@ Processing by Api::ContactsController#index as */*
 Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/api/contacts" for ::1 at 2019-06-15 15:06:48 -0400
+Processing by Api::ContactsController#index as */*
+  [1m[36mContact Load (24.7ms)[0m  [1m[34mSELECT "contacts".* FROM "contacts"[0m
+  ↳ app/controllers/api/contacts_controller.rb:4
+Completed 200 OK in 58ms (Views: 21.4ms | ActiveRecord: 24.7ms)
+
+
+Started GET "/api/contacts" for ::1 at 2019-06-15 15:07:20 -0400
+Processing by Api::ContactsController#index as */*
+  [1m[36mContact Load (0.4ms)[0m  [1m[34mSELECT "contacts".* FROM "contacts"[0m
+  ↳ app/controllers/api/contacts_controller.rb:4
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/contacts" for ::1 at 2019-06-15 15:08:08 -0400
+Processing by Api::ContactsController#index as */*
+  [1m[36mContact Load (0.4ms)[0m  [1m[34mSELECT "contacts".* FROM "contacts"[0m
+  ↳ app/controllers/api/contacts_controller.rb:4
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/contacts" for ::1 at 2019-06-15 15:09:28 -0400
+Processing by Api::ContactsController#index as */*
+  [1m[36mContact Load (0.6ms)[0m  [1m[34mSELECT "contacts".* FROM "contacts"[0m
+  ↳ app/controllers/api/contacts_controller.rb:4
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/contacts" for ::1 at 2019-06-15 15:10:23 -0400
+Processing by Api::ContactsController#index as */*
+  [1m[36mContact Load (0.3ms)[0m  [1m[34mSELECT "contacts".* FROM "contacts"[0m
+  ↳ app/controllers/api/contacts_controller.rb:4
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/contacts" for ::1 at 2019-06-15 15:11:31 -0400
+Processing by Api::ContactsController#index as */*
+  [1m[36mContact Load (0.4ms)[0m  [1m[34mSELECT "contacts".* FROM "contacts"[0m
+  ↳ app/controllers/api/contacts_controller.rb:4
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/contacts" for ::1 at 2019-06-15 15:12:05 -0400
+Processing by Api::ContactsController#index as */*
+  [1m[36mContact Load (0.2ms)[0m  [1m[34mSELECT "contacts".* FROM "contacts"[0m
+  ↳ app/controllers/api/contacts_controller.rb:4
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.2ms)
+
+
