@@ -9,19 +9,23 @@ class Contacts extends Component {
             contacts: []
         }
     }
-    
+
     componentDidMount () {
         fetch('http://localhost:3001/api/contacts')
             .then(resp => resp.json())
-            .then(contacts => this.setState({contacts}))
-            
+            .then(contact => this.setState({contacts: contact}))
     }
    
     render() { 
-        return (  
-            <div className="ContactsContainer">
+        const contactData = this.state.contacts.map(contact => 
+        <div key = {contact.id} >
+            <h3>{contact.name}</h3>
+        </div>
+        )
+        return ( 
+            <div>
                 <h1>VIP Contacts</h1>
-                {this.props.contacts.map(contact => <ContactCard key= {contact.id}contact ={contact}/>)}
+                {contactData}
                 <ContactForm/>
             </div>
         );
