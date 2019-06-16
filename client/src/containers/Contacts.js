@@ -5,7 +5,7 @@ import ContactCard from '../components/ContactCard'
 import ContactForm from './ContactForm'
 
 class Contacts extends Component {
-    componentWillMount(){
+    componentDidMount(){
         this.props.fetchContacts()
       }
 
@@ -17,7 +17,7 @@ class Contacts extends Component {
         )
         return ( 
             <div>
-                <h1>VIP Contacts</h1>
+                <h1>Contacts</h1>
                 <div>
                      {contactData}
                 </div>

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import {connect} from 'react-redux';
+import {newContact} from '../actions/contactActions';
 
 class ContactForm extends Component {
     constructor(props) {
@@ -26,17 +28,7 @@ class ContactForm extends Component {
             email: this.state.email
         }
 
-        fetch('http://localhost:3001/api/contacts', {
-            method: 'POST',
-            headers: {
-                'content-type': 'application/json'
-            },
-            body: JSON.stringify(contact)
-        })
-            .then(res => res.json())
-            .then(data =>console.log(data))
-
-
+        this.props.newContact(contact)
     }
 
  
@@ -67,4 +59,4 @@ class ContactForm extends Component {
     }
 }
  
-export default ContactForm;
+export default connect(null, {newContact}) (ContactForm);

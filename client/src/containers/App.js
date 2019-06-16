@@ -1,21 +1,20 @@
-import React, { Component } from 'react';
-import {Provider} from 'react-redux';
-import store from '../components/store';
+import React, { Component } from 'react'
 import './App.css';
 import Contacts from './Contacts';
-import ContactForm from './ContactForm'
+import MainContainer from './MainContainer'
+import Navbar from '../components/Navbar';
+
 
  
 class App extends Component {
   
     render() { 
         return ( 
-            <Provider store={store}>
+            
                 <div>
-                    <Contacts/>
+                    <MainContainer/>
+                    <Navbar/>
                 </div> 
-            </Provider>
-           
         );
     }
 }
