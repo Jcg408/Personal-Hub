@@ -8,6 +8,7 @@ const initialState = {
 export default function (state = initialState, action) {
     switch (action.type) {
        case FETCH_CONTACTS:
+           console.log('Reducer')
            return {
                ...state,
                contactItems: action.payload

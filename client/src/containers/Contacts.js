@@ -5,7 +5,7 @@ import ContactCard from '../components/ContactCard'
 import ContactForm from './ContactForm'
 
 class Contacts extends Component {
-    componentDidMount(){
+    componentWillMount(){
         this.props.fetchContacts()
       }
 
@@ -33,9 +33,9 @@ class Contacts extends Component {
 }
 const mapStateToProps = (state) => {
     return {
-      contacts: state.contacts.contactItem
+      contacts: state.contacts.contactItems
     }
   }
   
-export default connect (mapStateToProps, {fetchContacts}) (Contacts);
+export default connect (mapStateToProps, {fetchContacts})(Contacts);
 
